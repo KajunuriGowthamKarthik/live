@@ -8,18 +8,85 @@
 
 </head>
 <body>
-    <h1>Welcome to My portfolio</h1>
-    <button><a href="">About</a></button>
-    <button><a href="">Skills</a></button
-     <button> <a href="">Projects</a></button>
+    <header>
+        <h1>Welcome to My portfolio</h1>
+        <a href=""><button style="margin-right: 16px">About</button></a>
+        <a href=""><button style="margin-right: 16px">Skills</button></a>
+        <a href=""> <button style="margin-right: 16px">Projects</button></a>
+    
+    </header>
+    <main>
+    <section id="about">
+        <h1>Gowtham Karthik</h1>
+        <img src="linkeddin_profile.jpg" alt="here is the photo of me" height="350" width="350">
+        <p>Hello! I am Kartik, a second-year BTech student specializing in Artificial Intelligence and Machine Learning (AIML) at Pragati Engineering College,<br>
+         graduating in 2027. I am passionate about leveraging my skills in programming, AI, <br>
+         and web development to solve real-world problems and create innovative solutions. <br>
+         My journey in tech began during my diploma in Computer Science, where I achieved a remarkable 9.4% and secured 2nd place in a Talent Expo Hackathon. <br>
+         I’m now aspiring to build a successful career in Data Structures, Algorithms, and Full Stack Web Development.
+        </p><br>
 
-    <h1>Gowtham Karthik</h1>
-    <p>👨‍🎓I’m a 2nd-year BTech student specializing in Artificial Intelligence and Machine Learning (AIML) at <em>Pragati Engineering College</em>.<p>With a Diploma in Computer Science and Engineering 🎓 and an impressive 94% score, I’ve built a strong foundation in programming and AI.</p><br>
-        <h1💻 Skills:></h1><br>
+    </section>
+
+    <section id="skills">
+        <h1>Skills:</h1>
         <ol>
-        <li>🔹 Programming: Java ☕, Python 🐍, JavaScript 💻, HTML & CSS 🌐</li>
-        <li>🔹 AI Tools: ChatGPT 🤖, Gemini 🌟, Gamma AI ⚡, Blackbox AI 🔧</li>
-        <li>🔹 Technologies: Data Structures & Algorithms (DSA) in Java 🧩, Python Full Stack Development 🚀</li>
+        <li>🔹Programming: Java ☕, Python 🐍, JavaScript 💻, HTML & CSS 🌐</li>
+        <li>🔹AI Tools: ChatGPT 🤖, Gemini 🌟, Gamma AI ⚡, Blackbox AI 🔧</li>
+        <li>🔹Technologies: Data Structures & Algorithms (DSA) in Java 🧩, Python Full Stack Development 🚀</li>
         </ol>
+    
+    </section>
+
+    <section id="projects">
+        <h1>Kartik's Projects</h1>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>AI-powered Rock-Paper-Scissors Game Using Hand Gesture</td>
+                    <td>Developed a real-time game using Python, OpenCV, and Pygame. Features hand gesture recognition, live score tracking, sound effects, and fast response synchronization.</td>
+                </tr>
+                <tr>
+                    <td>Augmented Reality Application in Smart Education</td>
+                    <td>Created using Unity Hub, this AR application enhances student learning with interactive and immersive content.</td>
+                </tr>
+                <tr>
+                    <td>Google Translator</td>
+                    <td>Built using Python with Tkinter, Pillow, and Speech-to-Text for text and speech translation in a user-friendly interface.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h1>Contact me</h1>
+        <p style="align-items: center;"> Feel free get in touch with me using the form below:</p>
+        <form>
+           <fieldset>
+               <legend>contact me</legend>
+               <label for="name">Name:</label><input type="text" required placeholder="your name"><br>
+               <label for="name">Email:</label><input type="email" required placeholder="email"><br>
+               <label for="gender">choose gender:</label><br> <input type="radio" id="male" value="male">male <input type="radio" id="female" value="female">female<br>
+               <label>select you interest:</label><br> <input type="checkbox" id="programming" value="programming">programming <input type="checkbox" id="reading" value="reading">reading<br>
+               <label for="bio">bio(characters upto 200):</label><input type="text" id="text"><br>
+               <button style="margin-right: 16px;" type="submit"><label for="submit">Submit</label></button>
+               <button style="margin-right: 16px;" type="reset"><label for="reset">Reset</label></button>
+           </fieldset>
+        </form>
+   
+    </section>
+    </main>
+
+    <footer>
+         @ 2025 My portfolio
+    </footer>
+    
+    
 </body>
 </html>
