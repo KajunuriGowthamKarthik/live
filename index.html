@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="Stylesheet" href="style.css">
-
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <header>
-        <h1>Welcome to My portfolio</h1>
-        <a href=""><button style="margin-right: 16px">About</button></a>
-        <a href=""><button style="margin-right: 16px">Skills</button></a>
-        <a href=""> <button style="margin-right: 16px">Projects</button></a>
+    <header id="header">
+        <h1>Welcome to My portfolio</h1> 
+        <div class="div">
+        <a href="#about"><button class="button">About</button></a>
+        <a href="#skills"><button class="button">Skills</button></a>
+        <a href="#projects"> <button class="button">Projects</button></a>
+        <a href="#contact"> <button class="button">Contact</button></a>
+    </div>
     
     </header>
     <main>
@@ -40,27 +43,37 @@
 
     <section id="projects">
         <h1>Kartik's Projects</h1>
-        <table border="2">
+        <table border="1" style="border-color: beige;">
             <thead>
                 <tr>
                     <th>Project Name</th>
                     <th>Description</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>AI-powered Rock-Paper-Scissors Game Using Hand Gesture</td>
-                    <td>Developed a real-time game using Python, OpenCV, and Pygame. Features hand gesture recognition, live score tracking, sound effects, and fast response synchronization.</td>
-                </tr>
-                <tr>
-                    <td>Augmented Reality Application in Smart Education</td>
-                    <td>Created using Unity Hub, this AR application enhances student learning with interactive and immersive content.</td>
-                </tr>
-                <tr>
-                    <td>Google Translator</td>
-                    <td>Built using Python with Tkinter, Pillow, and Speech-to-Text for text and speech translation in a user-friendly interface.</td>
-                </tr>
-            </tbody>
+           <tbody>
+                <tbody>
+                    <tr>
+                        <td>AI-powered Rock-Paper-Scissors Game Using Hand Gesture</td>
+                        <td>Developed a real-time game using Python, OpenCV, and Pygame. Features hand gesture recognition, live score tracking, sound effects, and fast response synchronization.</td>
+                    </tr>
+                    <tr>
+                        <td>Augmented Reality Application in Smart Education</td>
+                        <td>Created using Unity Hub, this AR application enhances student learning with interactive and immersive content.</td>
+                    </tr>
+                    <tr>
+                        <td>Google Translator</td>
+                        <td>Built using Python with Tkinter, Pillow, and Speech-to-Text for text and speech translation in a user-friendly interface.</td>
+                    </tr>
+                    <tr>
+                        <td>Portfolio Website</td>
+                        <td>Designed and developed a personal portfolio website with sections like About, Skills, Projects, and Contact, showcasing a minimalistic and clean design.</td>
+                    </tr>
+                    <tr>
+                        <td>Interactive Website</td>
+                        <td>Created a responsive interactive website with features like a login form, navigation bar, and a dark-themed design for a modern user experience.</td>
+                    </tr>
+                </tbody>
+    
         </table>
     </section>
 
@@ -68,23 +81,24 @@
         <h1>Contact me</h1>
         <p style="align-items: center;"> Feel free get in touch with me using the form below:</p>
         <form>
-           <fieldset>
-               <legend>contact me</legend>
-               <label for="name">Name:</label><input type="text" required placeholder="your name"><br>
-               <label for="name">Email:</label><input type="email" required placeholder="email"><br>
-               <label for="gender">choose gender:</label><br> <input type="radio" id="male" value="male">male <input type="radio" id="female" value="female">female<br>
-               <label>select you interest:</label><br> <input type="checkbox" id="programming" value="programming">programming <input type="checkbox" id="reading" value="reading">reading<br>
-               <label for="bio">bio(characters upto 200):</label><input type="text" id="text"><br>
-               <button style="margin-right: 16px;" type="submit"><label for="submit">Submit</label></button>
-               <button style="margin-right: 16px;" type="reset"><label for="reset">Reset</label></button>
-           </fieldset>
+          
+               <div><label for="name">Name:</label><input type="text" required placeholder="your name"></div>
+               <div><label for="name">Email:</label><input type="email" required placeholder="email"></div>
+               <div><label for="gender">choose gender:</label></div> <div> <input type="radio" id="male" value="male">male <input type="radio" id="female" value="female">female</div>
+               <div><label>select you interest:</label><br> </div><div><input type="checkbox" id="programming" value="programming">programming <input type="checkbox" id="reading" value="reading">reading</div>
+               <div><label for="bio">bio(characters upto 200):</label><input type="text" id="text"></div>
+               <button style="margin-right: 16px;" type="submit" class="submit"><label for="submit">Submit</label></button>
+               <button style="margin-right: 16px;" type="reset" class="reset"><label for="reset">Reset</label></button>
+           
         </form>
    
     </section>
     </main>
 
     <footer>
-         @ 2025 My portfolio
+        <a href="#header"><button type="top" class="top"><label for="for">Top</label></button></a>
+        <p> © 2025 portfolio Gowtham Karthik Kajunuri. All Rights Reserved.</p>
+         
     </footer>
     
     

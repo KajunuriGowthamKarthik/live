@@ -1,6 +1,135 @@
-.body{
-    background-color: rgba(231, 136, 136, 0.938);
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
-.h1{
-    color: blue;
+body{
+    margin: 0;
+    font-size: 16px;
+    background-color: rgba(40, 6, 13, 0.924);
+    color:lightgray;
+}
+header{
+    background-color: rgb(40, 3, 10);
+    color: lightgray;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap ;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    background-color: lightgray;
+    color:  rgb(76, 12, 25);
+    height: 40px;
+    width: 140px;  
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    cursor: grabbing;
+    margin: 10px;
+   }
+   h1{
+    color: beige;
+    font-size: 35px;
+   }
+header h1{
+    margin: 0;
+    text-align: center;
+}
+
+.button:hover{
+    background-color: rgb(76, 12, 25);
+    color: lightgray;
+    border-color: lightgray;
+    
+}
+img{
+    height:280px;
+    width: 280px;
+    border-radius: 10px;
+}
+section{
+    padding:7px;
+    height: 100vh;
+    border: 1px solid rgba(182, 180, 180, 0.67);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    padding:20px;
+}
+.submit {
+    background-color: lightgray;
+    color:  rgb(76, 12, 25);
+    height: 40px;
+    width: 140px;  
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    cursor: grabbing;
+    margin-top: 30px;
+}
+.reset {
+    background-color: lightgray;
+    color:  rgb(76, 12, 25);
+    height: 40px;
+    width: 140px;  
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    cursor: grabbing;
+}
+.submit:hover{
+    background-color: rgb(69, 199, 49);
+    color: lightgray;
+    border-color: lightgray;
+    
+}
+.reset:hover{
+    background-color: rgb(212, 40, 40);
+    color: lightgray;
+    border-color: lightgray;
+    
+}
+input{
+    background-color: lightgray;
+    border-radius: 5px;
+    border: 1px solid  rgb(76, 12, 25);;
+     height: 25px;
+     margin: 5px;
+}
+footer{
+
+    background-color: black;
+    color: lightgray;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top {
+    position: fixed;
+    bottom: 3px;
+    right: 10px;
+    background-color: rgba(34, 34, 34, 0.843);
+    color:  rgb(125, 125, 125);
+    height: 50px;
+    width: 60px;  
+    border-radius:60px;
+    border: 1px solid lightgray;
+    cursor: grabbing;
+}
+.top:hover{
+    background-color: rgb(43, 43, 43);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+form{
+    
+    padding: auto;
 }
